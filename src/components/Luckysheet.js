@@ -9,6 +9,7 @@ function LuckySheet() {
                 container: "luckysheet",
                 title: 'Luckysheet sphinx Demo', // set the name of the table
                 data: [res],
+                showinfobar: false
             })
         }).catch(error => {
             console.log(error);
